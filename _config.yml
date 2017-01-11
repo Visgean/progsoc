@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Programing society at UoE
+title: Programming society at UoE
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://progsoc.visgean.me" # the base hostname & protocol for your site
 description: > # this means to ignore newlines until "baseurl:"
