@@ -24,4 +24,4 @@ theme: minima
 collections:
   lectures:
     output: true
-    permalink: /lectures/:slug/
+    permalink: /learn/:slug/
