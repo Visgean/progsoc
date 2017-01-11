@@ -132,7 +132,6 @@ to retrieve this element you need to retrieve the first (and only) element of th
 ```python
 >>> nested[0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0]
 'Base level'
-
 ```
 
 
