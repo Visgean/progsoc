@@ -9,6 +9,12 @@
 title: Programing society at UoE
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
+description: > # this means to ignore newlines until "baseurl:"
+  Nevim. Only current teaching assistants have the right to stand for the position of new Head of Teaching.
+
+github_link: visgean/progsoc
+facebook_link: https://www.facebook.com/groups/314067608963415/
+email: your-email@domain.com
 
 # Build settings
 markdown: kramdown
