@@ -4,12 +4,12 @@ layout: default
 
 <div class="home">
   <ul class="post-list">
-    {% for post in site.posts %}
+    {% for lecture in site.lectures %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <span class="post-meta">{{ lecture.date | date: "%b %-d, %Y" }}</span>
 
         <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <a class="post-link" href="{{ lecture.url | prepend: site.baseurl }}">{{ lecture.title }}</a>
         </h2>
       </li>
     {% endfor %}

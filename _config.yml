@@ -20,3 +20,8 @@ email: your-email@domain.com
 markdown: kramdown
 
 theme: minima
+
+collections:
+  lectures:
+    output: true
+    permalink: /lectures/:slug/
