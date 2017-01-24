@@ -106,6 +106,7 @@ else:
 
 # Practise / homework
 
+Copy the following Python code that calculates the currency conversion and fix it.
 
 ```python
 
