@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Lecture 3: Ifs"
+title:  "Lecture 3: If that then this"
 date:   2016-12-01 12:01:08 +0000
 categories: lecture
 ---
@@ -104,3 +104,30 @@ else:
     print("Sir, you have an obscure amount of apples. Are you ok?")
 ```
 
+# Practise / homework
+
+
+```python
+
+USD_PER_GBP = 0.8
+
+money_in_usd = int(input("How many dollars do you have? "))
+
+money_in_gbp = 0 # calculate the correct amount
+
+print('You have {0} brittish pounds'.format(money_in_gbp))
+
+
+# now fix this condition 
+
+if False: # <- fix this condition
+    print("You are GBP milionare.")
+else:
+    print("poor you")
+
+```
+
+# Reading
+
+1. https://www.digitalocean.com/community/tutorials/how-to-write-conditional-statements-in-python-3-2
+2. https://docs.python.org/3.6/tutorial/controlflow.html
