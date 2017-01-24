@@ -129,5 +129,5 @@ else:
 
 # Reading
 
-1. https://www.digitalocean.com/community/tutorials/how-to-write-conditional-statements-in-python-3-2
-2. https://docs.python.org/3.6/tutorial/controlflow.html
+1. [Digital ocean tutorial about IFs](https://www.digitalocean.com/community/tutorials/how-to-write-conditional-statements-in-python-3-2)
+2. [Official docs](https://docs.python.org/3.6/tutorial/controlflow.html), might be harder to read but goes further.
