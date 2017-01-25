@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Lecture 3: If that then this"
-date:   2016-12-01 12:01:08 +0000
+title:  "Lecture 2: If that then this"
+date:   2017-02-01 16:00:00 +0000
 categories: lecture
 ---
 
