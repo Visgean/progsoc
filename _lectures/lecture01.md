@@ -5,7 +5,7 @@ date:   2016-11-04 12:01:08 +0000
 categories: lecture
 ---
 
-# Installing:
+# 1. Installing:
 
 1. Download Python interpreter from [here](https://www.python.org/downloads/release/python-360/). For Windows users select ``Windows x86-64 executable installer``, for Mac pick ``Mac OS X 64-bit/32-bit installer``.
 **Please check the box asking you whether you'd like to add python to path.**
@@ -13,14 +13,14 @@ categories: lecture
 2. Secondly, install **Pycharm** from [here](https://www.jetbrains.com/pycharm/download/)
 We recommend you install the professional version through your school email, so that you don't have to pay for anything. But if you dont want to register **you can use Comunity Edition** - for our purposes it won't make difference. 
 
-# What are these tools?
+## What are these tools?
 
 Python is a popular programming language and Pycharm is powerful editor for editing Python files.
 Think about Pycharm as a sort of Microsoft Word for programming. 
 
 Python intepreter is a program that reads your Python files and tells computer what to do. This is necessary because computers itself work in very primitive programming language called Assembler. So think about this as a middleman between you and computer. 
 
-# Playing with Python
+# 2. Playing with Python
 
 Start Pycharm, it will ask you create a new project. Project in this context means simply a folder that contains your files. You can name it as you want. Then create a new file and put type following  (or copy it from here):
 
@@ -46,7 +46,7 @@ print(10/2 * 3 + 32 * (11+23))
 ```
 
 
-# Python console
+# 3. Python console & Homework
 
 Sometimes you will see people using Python console. This is interactive version of Python - it executes things at the moment. Its useful for experimenting but does not allow you to save your work. You can open in Pycharm by going to ``Tools | Python Console``.
 
@@ -80,7 +80,7 @@ Strings are the things in ``""`` quotes or ``''`` these quotes. Its quite simply
 print('10' + '12')
 print(10 + 12)
 ```
-# Variables:
+# 4. Variables:
 
 Variables are one of the most fundamental concept of all programming languagues. They allow us to store and retrieve values. 
 
@@ -111,7 +111,7 @@ Name requirements:
  - you can use undescores but not dots or ``-`` signs. So ``speed_of_light`` is valid while ``speed-of-light`` and ``speed.of.light`` are both invalid.
  - names are case sensitive ``Speedoflight`` and ``speedoflight`` are two different variables!
 
-# Basic data types:
+# 5. Basic data types:
 
 What are types? They are representation of different values - in real world you have many types of objects - numbers, cars, devices, pigment types, genders... In computer science they more precisely defined, this is to ensure that computer undestand the meaing of the value. 
 
