@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Lecture 1: Installations and first steps"
-date:   2016-11-04 12:01:08 +0000
+date:   2017-01-25 16:00:00 +0000
 categories: lecture
 ---
 
