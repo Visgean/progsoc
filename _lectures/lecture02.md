@@ -106,7 +106,7 @@ else:
 
 # Practise / homework
 
-Copy the following Python code that calculates the currency conversion and fix it.
+- Copy the following Python code that calculates the currency conversion and fix it.
 
 ```python
 
@@ -119,7 +119,7 @@ money_in_gbp = 0 # calculate the correct amount
 print('You have {0} brittish pounds'.format(money_in_gbp))
 
 
-# now fix this condition 
+# now fix this condition
 
 if False: # <- fix this condition
     print("You are GBP milionare.")
@@ -127,6 +127,11 @@ else:
     print("poor you")
 
 ```
+- Have the user input two numbers and one of `+`, `-`, `*` or `/`. Proceed to perform the appropriate operation
+on the two numbers. Be sure to handle the case where the user supplies an invalid operator.
+- Create an empty list, ask the user for several strings and add them all to the list (recall: that's what the append method does).
+Then ask the user for one extra string and then check whether that string is on the list. If it is, print a message,
+otherwise print a different one.
 
 # Reading
 
