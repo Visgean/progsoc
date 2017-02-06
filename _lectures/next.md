@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "I know the basics, where do I go next?"
-date:   2017-02-06 16:00:00 +0000
+date:   2016-02-06 16:00:00 +0000
 categories: lecture
 ---
 
