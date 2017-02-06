@@ -30,9 +30,9 @@ You are unlikely to understand it all but that does not matter. You will likely 
 
 Links:
 
-- [Mozilla bug list that you filter](https://www.joshmatthews.net/bugsahoy/?simple=1)
+- [Mozilla bug list that you can filter](https://www.joshmatthews.net/bugsahoy/?simple=1)
 - [List of beginner-friendly projects by language](https://github.com/MunGell/awesome-for-beginners)
-- [twitter feed with beginner-friendly projects](https://twitter.com/yourfirstpr)
+- [Twitter feed with beginner-friendly projects](https://twitter.com/yourfirstpr)
 
 
 ## Daily programming exercises
