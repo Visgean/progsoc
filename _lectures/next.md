@@ -29,6 +29,7 @@ Doing this will help you to learn about how programms are written in real-life a
 You are unlikely to understand it all but that does not matter. You will likely need to learn how to work with ``git``, start with [this tutorial](https://try.github.io/).
 
 Links:
+
 - [Mozilla bug list that you filter](https://www.joshmatthews.net/bugsahoy/?simple=1)
 - [List of beginner-friendly projects by language](https://github.com/MunGell/awesome-for-beginners)
 - [twitter feed with beginner-friendly projects](https://twitter.com/yourfirstpr)
