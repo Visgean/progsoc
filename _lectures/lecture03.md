@@ -9,7 +9,7 @@ categories: lecture
 
 For loops' are used to iterate (repeat) a certain function. 
 
-#Example
+# Example
 
 ```python
 list_of_cubes = [] #we have an empty list
@@ -18,11 +18,12 @@ if __name__ == '__main__':
         list_of_cubes.append(element * element * element)
         print(list_of_cubes)
 ```
+
 here, we have for every element in the original list we've multiplied it by itself three times and then cumulatively added the products of three elements for each of the elements within the fist list.
 Loops can be infinite. To avoid too much time spent waiting for one
 (e.g. if you had no idea it would be printing unnecessary text), click the button stop on the left side.
 
-#Example_2
+# Example_2
 
 ```python
 new_filtered_list = []
@@ -35,9 +36,9 @@ for element in some_kind_of_list:
 
 print(new_filtered_list)
 print(big_elements)
-   ```
+```
     
-#Example_3 - Range
+# Example_3 - Range
 
 ```python
 for i in range(5000):
