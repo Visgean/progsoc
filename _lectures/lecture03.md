@@ -25,27 +25,30 @@ Loops can be infinite. To avoid too much time spent waiting for one
 #Example_2
 
 ```python
-    new_filtered_list = []
-    big_elements = []
-    for element in some_kind_of_list:
-        if element <= 4:
-            new_filtered_list.append(element)
-        else:
-            big_elements.append(element)
+new_filtered_list = []
+big_elements = []
+for element in some_kind_of_list:
+    if element <= 4:
+        new_filtered_list.append(element)
+    else:
+        big_elements.append(element)
 
-    print(new_filtered_list)
-    print(big_elements)
+print(new_filtered_list)
+print(big_elements)
    ```
     
 #Example_3 - Range
+
 ```python
 for i in range(5000):
     print(i)
- ```
+```
+ 
 Using Range function in this case is like saying to Python : give us first 5000 values starting with zero (including zero).
 Range can be defined either as values leading up to a certain integer (as seen above), mind you that zero is 
 seen as the first number, or as a range across values.
 e.g.
+
 ```python
 for i in range(3, 15):
     print(i)
