@@ -10,7 +10,7 @@ categories: lecture
 For loops' are used to iterate (repeat) a certain function. 
 
 #Example
-```
+```python
 list_of_cubes = [] #we have an empty list
 if __name__ == '__main__':
     for element in some_kind_of_list:
@@ -20,7 +20,7 @@ if __name__ == '__main__':
 here, we have for every element in the original list we've multiplied it by itself three times and then cumulatively added the products of three elements for each of the elements within the fist list
 ```
 #Example_2
-```
+```python
     new_filtered_list = []
     big_elements = []
     for element in some_kind_of_list:
@@ -34,7 +34,7 @@ here, we have for every element in the original list we've multiplied it by itse
    ```
     
 #Example 3 = Range
-```
+```python
 for i in range(5000):
     print(i)
  ```
