@@ -53,5 +53,6 @@ for i in range(5000):
     print(i)
  ```
 it's like saying to python : give us first 5000 values starting with zero (including zero)
-loops can be infinite....to avoid too much time (e.g. if you had no idea it would be printing unnecessary text), click the button stop on the left side.
-Example 4: try for yourself: give us an example of the sum of first 100000 natural numbers
+loops can be infinite. To avoid too much time (e.g. if you had no idea it would be printing unnecessary text), click the button stop on the left side.
+
+# Homework: try for yourself- give us an example of the sum of first 100000 natural numbers
