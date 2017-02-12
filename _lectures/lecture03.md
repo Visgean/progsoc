@@ -16,7 +16,7 @@ if __name__ == '__main__':
     for element in some_kind_of_list:
         list_of_cubes.append(element * element * element)
         print(list_of_cubes)
-        ```
+```
 here, we have for every element in the original list we've multiplied it by itself three times and then cumulatively added the products of three elements for each of the elements within the fist list
 ```
 #Example_2
