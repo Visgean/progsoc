@@ -58,3 +58,12 @@ will not change the outcome. Python won't however work with more than 3 values d
 
 # Homework
 try for yourself- give us an example of the sum of first 100000 natural numbers
+
+# Are you eager to learn more about for loops?
+If so, make sure to check these links out and become a pro:
+
+[Official Python tips on For loops](https://wiki.python.org/moin/ForLoop)
+
+[Explained in a video + notes](https://pythonschool.net/basics/for-loops/)
+
+[A bit more interactive explanation](https://www.programiz.com/python-programming/for-loop)
