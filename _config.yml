@@ -10,8 +10,8 @@ title: Programming society at UoE
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://progsoc.visgean.me" # the base hostname & protocol for your site
 description: > # this means to ignore newlines until "baseurl:"
-  We created this page to help you keep track with content we cover during our sessions so that you are up to speed with everything. We hope you will make use of these notes and try to practice code they contain on your own, since only through practice one really gets the hang of things.
-
+ Notes from our lectures. Under MIT license.
+ 
 github_link: visgean/progsoc
 facebook_link: https://www.facebook.com/groups/314067608963415/
 email: s1410497@sms.ed.ac.uk
