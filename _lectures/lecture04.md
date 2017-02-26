@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Lecture 4: Functions"
+title:  "Lecture 3: Functions"
 date:   2017-02-15 16:00:00 +0000
 categories: lecture
 ---
@@ -46,7 +46,5 @@ Had we used 'and', we'd get numbers that are divisible both by 2 and 3 (e.g. 6, 
 Next we use the function '.append' we learned in our first lecture to fill in our list with values 
 satisfying our function.
 
-## Exercise 4.1
-
-Try for yourself: Define a function called '2dozens' to be equal to 24.
-Then, for all positive values
+##Exercise 4.1.
+Try for yourself: Define a function that will return all prime numbers higher than 2 and smaller than 20.
