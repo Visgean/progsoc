@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Lecture 3: Functions"
+title:  "Lecture 4: Functions"
 date:   2017-02-15 16:00:00 +0000
 categories: lecture
 ---
@@ -46,5 +46,19 @@ Had we used 'and', we'd get numbers that are divisible both by 2 and 3 (e.g. 6, 
 Next we use the function '.append' we learned in our first lecture to fill in our list with values 
 satisfying our function.
 
-##Exercise 4.1.
+# Function syntax
+
+```python
+def function_example(x):
+  return x                # <- block of the function
+```
+Functions definition begin with keyword ``def`` then the function name and arguments in brackets. The example above defines a function that simply returns its only argument. so ``function_example(1)`` will simply be ``1``. 
+The block of the function is similar to block of ``if`` or ``for``.  The function ends with ``return`` statement (or when the block ends).
+
+You can have as many function arguments (parameters) as you want: 
+try this [interactive code](https://repl.it/Fy3P/3).
+
+Function can do anything. See [this example](https://repl.it/Fy3b/0).
+
+## Exercise 4.1.
 Try for yourself: Define a function that will return all prime numbers higher than 2 and smaller than 20.
