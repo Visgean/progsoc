@@ -1,4 +1,14 @@
+---
+layout: post
+title:  "Lecture 5: Functions and revision"
+date:   2017-03-08 16:00:00 +0000
+categories: lecture
+---
+
+
 #Lecture 5, Week 7: Functions and revision
+
+
 So in lecture 5 we mainly revised content from previous lectures and did a couple of exercises, some of which are posted below.
 We recommend you to read the questions first, have a go at responding and only when you're done or lost, look at the results. If you struggle, just post your question on the FB group page or chat.
 :) Good luck
