@@ -12,4 +12,4 @@ We created this page to help you keep track with content we cover during our ses
 
 - This society serves as a platform for students with limited to no previous knowledge of coding to meet like-minded people and to learn how to code. 
 - Your input is very much appreciated so if you have any thoughts as to how could we improve the content of our sessions, notes or anything, please let us know. :) 
-- If you need clarification concerning topics covered, message us directly or post your query on the group's facebook page at https://www.facebook.com/groups/314067608963415/?fref=ts.
+- If you need clarification concerning topics covered, message us directly or post your query on the group's [facebook page](https://www.facebook.com/groups/314067608963415/).
