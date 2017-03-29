@@ -15,7 +15,8 @@ czech_engish_words = {
   'stul': 'table',
   'slovnik': 'dictionary'
 }
-#so you have implicit ordering in the dictionary. If you wanted to 
+#so you have implicit ordering in the dictionary. The entries in columns on the left are keys, on the right we have values.
+If you wanted to 
 
 
 some_list = [1,2,3]
