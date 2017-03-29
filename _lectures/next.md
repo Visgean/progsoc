@@ -5,11 +5,12 @@ date:   2016-02-06 16:00:00 +0000
 categories: lecture
 ---
 
-A common situation is when you have been through the basics 
-of programming language and you want to move to the next level.
-There are lot of students who either went through some introductory 
-course and did not continue with programming. This posts tries to 
-show some possible paths you can follow.
+Programming is a skill that you need to do on your own. We can only guide you, but you will need to dedicate a lot of time before being good at it. Below you can find several ways of how to approach learning programming
+
+
+## Read it
+
+There are many books about Python, we can recommend you [Dive into Python 3](http://www.diveintopython3.net/), the online version is for free but you might also consider hard copy. 
 
 
 ## Daily programming exercises
@@ -23,7 +24,7 @@ You can pick one of these
 
 
 
-## Learning by doing:
+### Learning by doing:
 
 You will only learn programming by practising it, so the best way is to work on your own project.
 Now a lot of people say they can't really think of project, so below you will find projects for inspiration. 
@@ -33,7 +34,7 @@ Now a lot of people say they can't really think of project, so below you will fi
 3. Budget tracker.
 
 
-## Help with existing Open Source projects
+### Help with existing Open Source projects
 
 There are many Open Source projects that are looking for beginners to help them out with implementing new features or fixing bugs.
 Doing this will help you to learn about how programms are written in real-life and it will also provide you with much needed feedback.
