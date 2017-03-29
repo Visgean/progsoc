@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Lecture 7: Dictionaries"
+date:   2017-22-08 16:00:00 +0000
+categories: lecture
+---
+
+
 
 ```python
 #discionaries are maps from keys to respective values
