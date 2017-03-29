@@ -72,3 +72,5 @@ def custom_counter(elems):
   counter = {]
   
 ```
+Here is an example of other dictionaries with an explanation:
+[Click here](https://www.tutorialspoint.com/python/python_dictionary.htm)
