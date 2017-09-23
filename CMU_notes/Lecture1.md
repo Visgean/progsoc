@@ -19,8 +19,8 @@ primes = [2, 3, 5, 7]
 for prime in primes:
 	print(prime)
 ```
-*The way we address each member is up to you. You can call them primes, x, n, whichever other word. 
-Just remember to avoid pre-defined words used by Python and be consistent*
+The way we address each member is up to you. You can call them primes, x, n, whichever other word. 
+Just remember to avoid pre-defined words used by Python and be consistent.
 Also, notice the indentation of the code. Print is tightly linked with the line above it. That is why we indent it. 
 
 Let’s try something a bit more elaborate. It’s great that we’ve managed to get the list of all the primes we’ve defined. 
@@ -62,9 +62,10 @@ for i in range(3, 6):
 	print(i)
 ```
 As can be seen above, if we define range for a specific interval, we get the parameters 
-Between the two numbers, including the lower one (3 in this case), strictly up to the upper bound.
+between the two numbers, including the lower one (3 in this case), strictly up to the upper bound.
 
-**Extra info** 
+###**Extra info** 
+
 Range can, however, take in even three parameters. Let’s try:
 ```python
 for i in range(3, 16, 3)
@@ -80,7 +81,7 @@ Dictionaries are used in Python similarly like those you know from real life. Th
 1.	Each key is separated from its value by a colon
 2.	The items are separated by commas
 3.	And the whole thing is enclosed in curly brackets. (An empty dictionary: {})
-4.	Each key (first in the dictionary) is unique, but values aren’t. 
+4.	Each key (first in the dictionary) is unique, but values aren’t (i.e. can be re-defined). 
 
 In the end, a dictionary may look like this: 
 ```python
@@ -92,10 +93,12 @@ simple_dictionary_cz_en = {
 Here we see that ‘Ahoj’ and ‘Nenavidim te’ are keys, each with a respective value added to it. If you’re confused as to why are the pair below each other, it’s just for the sake of it being neat. The important thing is, however, that each pair is separated by a comma and that the entire dictionary is framed by curly brackets, as specified above.
 
 So if you’d like to get the translation of what Ahoj means in English, you can go about it by writing:
-
+```python
 print(simple_dictionary_cz_en['Ahoj'])
+ ```
  
-***Let’s look at other examples:
+###***Let’s look at other examples:
+
 ```python
 some_other_dict = {
   1: 3,
