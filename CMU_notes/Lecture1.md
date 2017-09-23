@@ -138,10 +138,11 @@ Hence you can use unkowns to represent keys and values and don’t have to resor
 
 So there you have it. We recommend you take a bit of a break now to soak all the information in and try and copy the code above, modify it, create your own versions and when you’re done, please attempt the homework we’ve got for you. 
 
+##	Further Reading
 We also recommend you visit the sites listed below for further reference.
 
 1.	[Original code from the class](https://repl.it/LLVO/11)
-2.	[More on Range](http://www.pythonforbeginners.com/modules-in-python/python-range-function)
-3.	[Input](https://www.python-course.eu/input.php)
+2.	[More on range()](http://www.pythonforbeginners.com/modules-in-python/python-range-function)
+3.	[input()](https://www.python-course.eu/input.php)
 4.	[For loops](https://www.programiz.com/python-programming/for-loop) 
 5.	[Dictionaries](https://www.tutorialspoint.com/python/python_dictionary.htm)
