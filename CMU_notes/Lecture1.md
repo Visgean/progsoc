@@ -97,7 +97,7 @@ So if you’d like to get the translation of what Ahoj means in English, you can
 print(simple_dictionary_cz_en['Ahoj'])
  ```
  
-###***Let’s look at other examples:
+Let’s look at other examples:
 
 ```python
 some_other_dict = {
@@ -112,7 +112,7 @@ person = {
 ```
 As you can see above, some_other_dict and person are two dictionaries which have both strings and numbers for values. This is because values in dictionaries are, unlike keys, mutable. This means that whilst it is OK for values to be either strings, numbers or tuples, keys must be consistent in whether they are either of the three.
 
-*** Now let’s take the example of a phonebook, which, just like a dictionary, attributes each key (name) a value (number). 
+Now let’s take the example of a phonebook, which, just like a dictionary, attributes each key (name) a value (number). 
 ```python
 phonebook = {
   "Peter": 123456,
@@ -123,10 +123,10 @@ phonebook = {
 What to do with such a dictionary next? Imagine having a real virtual phonebook and wanting to check whether your friend’s number to call him. If you had a hard copy, it could take you some time. If the phonebook was virtual, however, you could find his number quite easily- and here is how:
 
 We are going to apply functions if and else we learned last time. We start by user_specified_name, i.e. the name of your friend.
-
+```python     
 User_specified_name = input(‘Please input a name:’)
-
-**We have defined user_specified_name to ask for the name of the designated person through the function input(). Input stops the program flow, until the user has given his input and ended his input with a return key. It also has an optional parameter-a string- which in our case says ‘Please input a name:’. It is there mostly so that the user knows what is required of him and whilst it is not mandatory to include a string telling one what to do, it may prove to be rather efficient.
+```     
+We have defined user_specified_name to ask for the name of the designated person through the function input(). Input stops the program flow, until the user has given his input and ended his input with a return key. It also has an optional parameter-a string- which in our case says ‘Please input a name:’. It is there mostly so that the user knows what is required of him and whilst it is not mandatory to include a string telling one what to do, it may prove to be rather efficient.
 
 ```python             
 for key,value in some_other_dict.items():
