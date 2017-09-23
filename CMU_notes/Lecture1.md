@@ -8,6 +8,32 @@ categories: lecture
 
 # Lecture 1, Week 1: For loops, range and dictionaries
 
+
+##	Range()
+
+Range() is a pre-defined function which generates a list of numbers we usually iterate over with for loops. It’s best explained with an example
+```python
+for i in range(5):
+	print(i)
+```
+-this gives out the first integers up to 5. And yes, 0 is the first one. 
+
+We can have range pick out just a certain interval of values.
+```python
+for i in range(3, 6):
+	print(i)
+```
+As can be seen above, if we define range for a specific interval, we get the parameters 
+between the two numbers, including the lower one (3 in this case), strictly up to the upper bound.
+
+###	Extra info
+
+Range can, however, take in even three parameters. Let’s try:
+```python
+for i in range(3, 16, 3)
+	print i
+```
+Here, we see that the lines above give out every third number from 3 to 16.
 ##	For Loops
 
 We use for loops to iterate over a given sequence. Let’s consider the following example:
@@ -46,32 +72,6 @@ print('total:', sum_holder)
 ```
 
 
-
-##	Range()
-
-Range() is a pre-defined function which generates a list of numbers we usually iterate over with for loops. It’s best explained with an example
-```python
-for i in range(5):
-	print(i)
-```
--this gives out the first integers up to 5. And yes, 0 is the first one. 
-
-We can have range pick out just a certain interval of values.
-```python
-for i in range(3, 6):
-	print(i)
-```
-As can be seen above, if we define range for a specific interval, we get the parameters 
-between the two numbers, including the lower one (3 in this case), strictly up to the upper bound.
-
-###**Extra info** 
-
-Range can, however, take in even three parameters. Let’s try:
-```python
-for i in range(3, 16, 3)
-	print i
-```
-Here, we see that the lines above give out every third number from 3 to 16.
 
 
 ##	Dictionaries
