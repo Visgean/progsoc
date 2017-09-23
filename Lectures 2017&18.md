@@ -40,7 +40,7 @@ print('total:', sum_holder)
 
 
 
-##Range()
+##	Range()
 
 Range() is a pre-defined function which generates a list of numbers we usually iterate over with for loops. It’s best explained with an example
 ```python
@@ -66,7 +66,7 @@ for i in range(3, 16, 3)
 Here, we see that the lines above give out every third number from 3 to 16.
 
 
-##Dictionaries
+##	Dictionaries
 
 Dictionaries are used in Python similarly like those you know from real life. The attribute specific values to specific keys. The syntax of dictionaries is a bit more tricky than we’ve been used to this far. Important things to note are:
 
