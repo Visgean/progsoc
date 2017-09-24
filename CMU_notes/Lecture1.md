@@ -157,5 +157,5 @@ Lastly, print the numbers with the string 'multiples of 2 or 3' preceeding your 
 
 
 ## Q2
-Run a for loop stored in the list called 'my_contacts' for the dictionary called 'phonebook' (you can copy it above),
-so that 'my_contacts' includes strings in the form e.g. 'Peter has the number 123456.
+Run a for loop for the dictionary called 'phonebook' (you can copy it above),
+so that you print out strings in the form e.g. 'Peter has the number 123456'.
