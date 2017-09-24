@@ -155,10 +155,10 @@ We also recommend you visit the sites listed below for further reference.
 First define 'numbers' as an empty list. Subsequently, add in all numbers which are divisible by 2 or 3 ranging from 1 to 100. 
 Lastly, print the numbers with the string 'multiples of 2 or 3' preceeding your output, which should be a list containing the designated multiples. 
 
-
-## Q2.1
+## Q2
+### Q2.1
 Create a dictionary called great_countries, which links countries that make up the United Kingdom to their respective capitals. 
 
-## Q2.2
+### Q2.2
 Run a for loop for the dictionary great_countries ,
 so that you print out strings in the form e.g. 'London is the capital of England'.
