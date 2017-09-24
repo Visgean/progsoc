@@ -162,3 +162,6 @@ Create a dictionary called great_countries, which links countries that make up t
 ### Q2.2
 Run a for loop for the dictionary great_countries ,
 so that you print out strings in the form e.g. 'London is the capital of England'.
+
+## Q3
+Find the 100th number in the Fibonacci sequence
