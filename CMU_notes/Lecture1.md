@@ -156,6 +156,9 @@ First define 'numbers' as an empty list. Subsequently, add in all numbers which 
 Lastly, print the numbers with the string 'multiples of 2 or 3' preceeding your output, which should be a list containing the designated multiples. 
 
 
-## Q2
-Run a for loop for the dictionary called 'phonebook' (you can copy it above),
-so that you print out strings in the form e.g. 'Peter has the number 123456'.
+## Q2.1
+Create a dictionary called great_countries, which links countries that make up the United Kingdom to their respective capitals. 
+
+## Q2.2
+Run a for loop for the dictionary great_countries ,
+so that you print out strings in the form e.g. 'London is the capital of England'.
