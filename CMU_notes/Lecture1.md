@@ -146,3 +146,26 @@ We also recommend you visit the sites listed below for further reference.
 3.	[input()](https://www.python-course.eu/input.php)
 4.	[For loops](https://www.programiz.com/python-programming/for-loop) 
 5.	[Dictionaries](https://www.tutorialspoint.com/python/python_dictionary.htm)
+
+
+# Homework
+
+##  Q1
+
+Define a function called sum_of_x which contains only numbers which residuals while divided by 2 are zero, i.e. only even numbers.
+Hint: In order to define a residual to be equal to zero, use 
+
+```python
+i%2 == 0
+```
+along with if and for statements, where appropriate. Also, do not forget about indentations.
+
+
+##  Q2
+First define 'numbers' as an empty list. Subsequently, add in all numbers which are divisible by 2 or 3 ranging from 1 to 100. 
+Lastly, print the numbers with the string 'multiples of 2 or 3' preceeding your output, which should be a list containing the designated multiples. 
+
+
+## Q3
+Run a for loop stored in the list called 'my_contacts' for the dictionary called 'phonebook' (you can copy it above),
+so that 'my_contacts' includes strings in the form e.g. 'Peter has the number 123456.
