@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Lecture 7: Dictionaries"
+title:  "Lecture 7 - Dictionaries"
 date:   2017-03-22 08:00:00 -0800
-categories: lecture
+categories: old_lecture
 ---
 
 

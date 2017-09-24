@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Where to go next?"
+title:  "Where to go next"
 date:   2016-02-06 16:00:00 +0000
-categories: lecture
+categories: old_lecture
 ---
 
 Programming is a skill that you need to do on your own. We can only guide you, but you will need to dedicate a lot of time before being good at it. Below you can find several ways of how to approach learning programming

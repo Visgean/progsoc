@@ -1,0 +1,21 @@
+---
+layout: page
+title: Old lectures
+permalink: /old/
+---
+
+<div class="home">
+  <ul class="post-list">
+    {% for lecture in site.old_lectures %}
+      <li>
+        <span class="post-meta">{{ lecture.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ lecture.url | prepend: site.baseurl }}">{{ lecture.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+
+</div>

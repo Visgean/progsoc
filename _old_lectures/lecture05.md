@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Lecture 5: Functions and revision"
+title:  "Lecture 5 - Functions and revision"
 date:   2017-03-08 16:00:00 +0000
-categories: lecture
+categories: old_lecture
 ---
 
 

@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Lecture 2: If that then this"
+title:  "Lecture 2 - If that then this"
 date:   2017-02-01 16:00:00 +0000
-categories: lecture
+categories: old_lecture
 ---
 
 # If condition

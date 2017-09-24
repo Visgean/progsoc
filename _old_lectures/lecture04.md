@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Lecture 4: Functions"
+title:  "Lecture 4 - Functions"
 date:   2017-02-15 16:00:00 +0000
-categories: lecture
+categories: old_lecture
 ---
 
 # Functions

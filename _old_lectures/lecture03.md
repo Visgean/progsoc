@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Lecture 3: For loops"
+title:  "Lecture 3 - For loops"
 date:   2017-02-08 16:00:00 +0000
-categories: lecture
+categories: old_lecture
 ---
 
 # For loops

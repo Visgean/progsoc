@@ -1,199 +1,167 @@
 ---
 layout: post
-title:  "Lecture 1: Installations and first steps"
-date:   2017-01-25 16:00:00 +0000
+title:  "Lecture 1 - For loops, range and dictionaries"
+date:   2017-09-21 17:00:00 +0000
 categories: lecture
 ---
 
-# 1. Installing:
 
-1. Download Python interpreter from [here](https://www.python.org/downloads/release/python-360/). For Windows users select ``Windows x86-64 executable installer``, for Mac pick ``Mac OS X 64-bit/32-bit installer``.
-**Please check the box asking you whether you'd like to add python to path.**
+# Lecture 1, Week 1: For loops, range and dictionaries
 
-2. Secondly, install **Pycharm** from [here](https://www.jetbrains.com/pycharm/download/)
-We recommend you install the professional version through your school email, so that you don't have to pay for anything. But if you dont want to register **you can use Comunity Edition** - for our purposes it won't make difference. 
 
-## What are these tools?
+##	Range()
 
-Python is a popular programming language and Pycharm is powerful editor for editing Python files.
-Think about Pycharm as a sort of Microsoft Word for programming. 
+Range() is a pre-defined function which generates a list of numbers we usually iterate over with for loops. It’s best explained with an example
+```python
+for i in range(5):
+	print(i)
+```
+-this gives out the first integers up to 5. And yes, 0 is the first one. 
 
-Python intepreter is a program that reads your Python files and tells computer what to do. This is necessary because computers itself work in very primitive programming language called Assembler. So think about this as a middleman between you and computer. 
+We can have range pick out just a certain interval of values.
+```python
+for i in range(3, 6):
+	print(i)
+```
+As can be seen above, if we define range for a specific interval, we get the parameters 
+between the two numbers, including the lower one (3 in this case), strictly up to the upper bound.
 
-# 2. Playing with Python
+###	Extra info
 
-Start Pycharm, it will ask you create a new project. Project in this context means simply a folder that contains your files. You can name it as you want. Then create a new file and put type following  (or copy it from here):
+Range can, however, take in even three parameters. Let’s try:
+```python
+for i in range(3, 16, 3)
+	print i
+```
+Here, we see that the lines above give out every third number from 3 to 16.
+##	For Loops
+
+We use for loops to iterate over a given sequence. Let’s consider the following example:
+We have a list of prime numbers from two to seven, called primes. 
+For now, let’s write a for loop that returns each number included in primes. 
 
 ```python
-print("Hello world.")
+primes = [2, 3, 5, 7]
+for prime in primes:
+	print(prime)
 ```
-Then go to ``Run`` in Toolbar and select to run the file. It should look like this: 
+The way we address each member is up to you. You can call them primes, x, n, whichever other word. 
+Just remember to avoid pre-defined words used by Python and be consistent.
+Also, notice the indentation of the code. Print is tightly linked with the line above it. That is why we indent it. 
 
-![]({{ site.url }}/assets/l01/hello.png)
-
-Congratulations, you just executed your first computer program.
-
-
-## Using python as calculator:
-
-Python can be useful as calculator, try these examples: You can just add them to the file.
+Let’s try something a bit more elaborate. It’s great that we’ve managed to get the list of all the primes we’ve defined. 
+What if, however, we wanted to change each term of a list? 
+We might find that defining a new list that can store the output of such a change may be a good idea.
 
 ```python
-print(10/2)
-print(3.2 * 10212)
-print(10 ** 2) # ** is power operator
-print(10/2 * 3 + 32 * (11+23))
+first_10_ns = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+sum_holder = 0
 ```
 
-
-# 3. Python console & Homework
-
-Sometimes you will see people using Python console. This is interactive version of Python - it executes things at the moment. Its useful for experimenting but does not allow you to save your work. You can open in Pycharm by going to ``Tools | Python Console``.
-
-![]({{ site.url }}/assets/l01/console.png)
-
-It might look slightly different in your version of Python. Usually textbooks indicate console by ``>>>`` characters. So when you see something like that you should not copy these. This is what you might see in tutorials and textbooks:
+This time, we’ve defined a list of first ten integers as first_10_ns (for some reason starting with a 1). 
+We also defined sum_holder as an empty list for now. 
+It is so that when we alter members of first_10_ns, we have a place where to store them.
 
 ```python
->>> 10+11
-21
+for n in range(11):                     	#as you can see, n here means nth member of the list
+sum_holder = sum_holder + n			#here we’re saying that for each nth term, we add the previous value(s) to the number, so that values compile. 
+print('Sum holder:', sum_holder, 'n:', n)	#finally, this line gives out the results, with strings ‘Sum holder:’ and ‘n:’ added for better clarity. 
+						Also, notice the comma separating the two kinds of values that are being printed by the function.
+
+print('total:', sum_holder)
 ```
 
-This means that author typed ``10+11`` and the output was ``21``.
 
 
-## Short homework:
 
-What do these result in:
+##	Dictionaries
+
+Dictionaries are used in Python similarly like those you know from real life. The attribute specific values to specific keys. The syntax of dictionaries is a bit more tricky than we’ve been used to this far. Important things to note are:
+
+1.	Each key is separated from its value by a colon
+2.	The items are separated by commas
+3.	And the whole thing is enclosed in curly brackets. (An empty dictionary: {})
+4.	Each key (first in the dictionary) is unique, but values aren’t (i.e. can be re-defined). 
+
+In the end, a dictionary may look like this: 
+```python
+simple_dictionary_cz_en = {
+  'Ahoj': 'Hello',
+  'Nenavidim te': 'I love you',
+}
+```
+Here we see that ‘Ahoj’ and ‘Nenavidim te’ are keys, each with a respective value added to it. If you’re confused as to why are the pair below each other, it’s just for the sake of it being neat. The important thing is, however, that each pair is separated by a comma and that the entire dictionary is framed by curly brackets, as specified above.
+
+So if you’d like to get the translation of what Ahoj means in English, you can go about it by writing:
+```python
+print(simple_dictionary_cz_en['Ahoj'])
+ ```
+ 
+Let’s look at other examples:
 
 ```python
-print('Happy', 30 * 12 * 7 - 503)
-```
+some_other_dict = {
+  1: 3,
+  3: 'no types here...'
+}
 
+person = {
+  'age' : 25,
+  'name': 'John'
+}
+```
+As you can see above, some_other_dict and person are two dictionaries which have both strings and numbers for values. This is because values in dictionaries are, unlike keys, mutable. This means that whilst it is OK for values to be either strings, numbers or tuples, keys must be consistent in whether they are either of the three.
+
+Now let’s take the example of a phonebook, which, just like a dictionary, attributes each key (name) a value (number). 
 ```python
-print("You can join" + "strings together")
+phonebook = {
+  "Peter": 123456,
+  "Jenny": 564684,
+  "Kate": 354897
+}
 ```
+What to do with such a dictionary next? Imagine having a real virtual phonebook and wanting to check whether your friend’s number to call him. If you had a hard copy, it could take you some time. If the phonebook was virtual, however, you could find his number quite easily- and here is how:
 
-Strings are the things in ``""`` quotes or ``''`` these quotes. Its quite simply a text. 
+We are going to apply functions if and else we learned last time. We start by user_specified_name, i.e. the name of your friend.
+```python     
+User_specified_name = input(‘Please input a name:’)
+```     
+We have defined user_specified_name to ask for the name of the designated person through the function input(). Input stops the program flow, until the user has given his input and ended his input with a return key. It also has an optional parameter-a string- which in our case says ‘Please input a name:’. It is there mostly so that the user knows what is required of him and whilst it is not mandatory to include a string telling one what to do, it may prove to be rather efficient.
 
-```python
-print('10' + '12')
-print(10 + 12)
-```
-# 4. Variables:
+```python             
+for key,value in some_other_dict.items():
+  print("key", key, "value", value)
+  ```
 
-Variables are one of the most fundamental concept of all programming languagues. They allow us to store and retrieve values. 
+It is worth mentioning here, that key and value are not words pre-defined in Python 3. 
+Hence you can use unkowns to represent keys and values and don’t have to resort to the labels we used here. Just bear in mind that it is of essence to be consistent with labels.
 
+So there you have it. We recommend you take a bit of a break now to soak all the information in and try and copy the code above, modify it, create your own versions and when you’re done, please attempt the homework we’ve got for you. 
 
-```python
->>> name = "Martin"
->>> print(name)
-Martin
->>> name = "Pepe"
->>> print(name)
-Pepe
-```
+##	Further Reading
+We also recommend you visit the sites listed below for further reference.
 
-Math example:
-
-```python
->>> pi = 3.14 # precise enough
->>> r = 10
->>> area = pi * r ** 2
->>> print(area)
-314.0
-```
-
-You can name your variables however you want. Beginners sometimes stick to using math-like variables ``x``, ``y``. Try to avoid it - its always better to use longer names that convey the meaning of the content of the variable. So instead of ``a`` use ``area``.
-
-Name requirements:
- - variables can't start with numbers - ``1apple`` is invalid while ``apple1`` is valid. 
- - you can use undescores but not dots or ``-`` signs. So ``speed_of_light`` is valid while ``speed-of-light`` and ``speed.of.light`` are both invalid.
- - names are case sensitive ``Speedoflight`` and ``speedoflight`` are two different variables!
-
-# 5. Basic data types:
-
-What are types? They are representation of different values - in real world you have many types of objects - numbers, cars, devices, pigment types, genders... In computer science they more precisely defined, this is to ensure that computer undestand the meaing of the value. 
-
-```python
->>> integer = 1 # whole number
->>> floating_number = 1.3
->>> text_variable = "Lorem ipsum"
->>> boolean = True
-```
-
-One of the reason for variables is to ensure that the behaviour for operators is clearly defined. For example we can't add text with numbers - that simply does not make sense! And so Python will throw an exception (signaling undefined behaviour):
-
-```python
->>> text_variable + integer
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-TypeError: Can't convert 'int' object to str implicitly
-```
-This is just python special way of telling you that you did something wrong. Just like you can't add apples and pears together you can't add two different types together. 
-
-Imagine this situation: ``1 + '2'`` what should the result of this operation be? Should it be string? Or integer? Who knows? Python does not so it throws an tantrum.
+1.	[Original code from the class](https://repl.it/LLVO/11)
+2.	[More on range()](http://www.pythonforbeginners.com/modules-in-python/python-range-function)
+3.	[input()](https://www.python-course.eu/input.php)
+4.	[For loops](https://www.programiz.com/python-programming/for-loop) 
+5.	[Dictionaries](https://www.tutorialspoint.com/python/python_dictionary.htm)
 
 
-## Lists
+# Homework
 
-Lists are Python way of storing mulitple values in an array. 
 
-```python
->>> fruits = ["bananas", "apples", "oranges", "melones"]
->>> numbers = [1,2,3,4,5,11,-1]
->>> mixed = [1,2,3, "bananas"]
-```
+##  Q1
+First define 'numbers' as an empty list. Subsequently, add in all numbers which are divisible by 2 or 3 ranging from 1 to 100. 
+Lastly, print the numbers with the string 'multiples of 2 or 3' preceeding your output, which should be a list containing the designated multiples. 
 
-Lists are defined by square brackets, and comma separated values. Usually it makes sense to store values of same type (``mixed`` in example above shows that it is not required though). 
+## Q2
+### Q2.1
+Create a dictionary called great_countries, which links countries that make up the United Kingdom to their respective capitals. 
 
-You can add stuff to lists using ``.append`` method:
+### Q2.2
+Run a for loop for the dictionary great_countries ,
+so that you print out strings in the form e.g. 'London is the capital of England'.
 
-```python
->>> fruits
-['bananas', 'apples', 'oranges', 'melones']
->>> fruits.append("potato")
->>> fruits
-['bananas', 'apples', 'oranges', 'melones', 'potato']
-```
-
-or you can extend the list by another list:
-
-```python
->>> fruits
-['bananas', 'apples', 'oranges', 'melones', 'potato']
->>> fruits.extend(numbers)
->>> fruits
-['bananas', 'apples', 'oranges', 'melones', 'potato', 1, 2, 3, 4, 5, 11, -1]
-```
-
-you can then select a single element - where 0 denotes first element.
-
-```python
->>> fruits
-['bananas', 'apples', 'oranges', 'melones', 'potato', 1, 2, 3, 4, 5, 11, -1]
->>> fruits[0]
-'bananas'
->>> fruits[1]
-'apples'
->>> fruits[3]
-'melones'
-```
-
-or you can get a range of elements - this is called slicing:
-
-```python
->>> fruits[0:2]
-['bananas', 'apples']
->>> fruits[1:4]
-['apples', 'oranges', 'melones']
->>> fruits[:3]
-['bananas', 'apples', 'oranges']
->>> fruits[1:]
-['apples', 'oranges', 'melones', 'potato', 1, 2, 3, 4, 5, 11, -1]
->>> fruits[3:]
-['melones', 'potato', 1, 2, 3, 4, 5, 11, -1]
-```
-
-## I want more:
-You can go trough [this tutorial](https://docs.python.org/3/tutorial/introduction.html). It might confuse you. Remember that you can't do anything wrong here - there is no cost to programming so don't worry to experiment. 
+## Q3
+Find the 100th number in the Fibonacci sequence
