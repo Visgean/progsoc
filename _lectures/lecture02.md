@@ -68,8 +68,7 @@ print(my_addition(30, 25))
 ```
 You should see this happen:
 
-The sum of 30 and 25 equals to
-55
+#### The sum of 30 and 25 equals to 55
 
 And you can then change the values of your two arguments to any number and call it again and again 
 without having to touch the structure of your function.
