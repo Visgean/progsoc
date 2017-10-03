@@ -90,7 +90,7 @@ Create a max function with 2 arguments. This basically means a function that wil
 ##  TASK 3
 
 Look at this recursive function below and try to guess what it does. Try to run it to see what happens. 
-
+```python
 def fib(n):
   if n == 0:
     return 1
@@ -99,7 +99,7 @@ def fib(n):
   return fib(n-1) + fib(n-2)
   
 print('Fib of 10:', fib(10))
-
+```
 ### NOTE: Try these inputs:
 a) 10
 b) 100
