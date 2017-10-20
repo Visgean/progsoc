@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Lecture 3 - problem solving"
+date:   2017-10-11 17:00:00 +0000
+categories: lecture
+---
+
 # Problem solving - Questions and Solutions
 
 
